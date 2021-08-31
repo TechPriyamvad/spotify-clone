@@ -1,5 +1,4 @@
-# Firebase Deployment link
--> https://spotify-af373.web.app/
+# Live demo 👉https://spotify-af373.web.app/💻
 
 ###
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
