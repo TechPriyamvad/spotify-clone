@@ -10,7 +10,7 @@ export const initialState = {
   item: null,
 };
 
-const reducer = (state, action) => {
+const reducer = (state=initialState, action) => {
   console.log(action);
   switch (action.type) {
     case "SET_USER":

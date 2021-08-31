@@ -3,6 +3,7 @@ import "./Login.css";
 import { accessUrl } from "./spotify";
 
 function Login() {
+  console.log('login');
   return (
     <div className="login">
       <img

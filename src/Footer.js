@@ -13,10 +13,10 @@ import { Grid, Slider } from "@material-ui/core";
 
 function Footer({ spotify }) {
   const [{ token, item, playing }, dispatch] = useStateValue();
-
+  // console.log(item);
   useEffect(() => {
     spotify.getMyCurrentPlaybackState().then((r) => {
-      console.log(r);
+      // console.log(r);
 
       dispatch({
         type: "SET_PLAYING",

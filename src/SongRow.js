@@ -3,6 +3,7 @@ import "./SongRow.css";
 
 function SongRow({ track, playSong }) {
   console.log(track);
+  console.log('song row');
   return (
     <div className="songRow" onClick={() => playSong(track.id)}>
       <img className="songRow__album" src={track.album.images[0].url} alt="" />

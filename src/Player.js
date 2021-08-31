@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import Body from "./Body";
 
 function Player({ spotify }) {
+  console.log('player');
   return (
     <div className="player">
       <div className="player__body">

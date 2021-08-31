@@ -9,11 +9,11 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 
 function Body({ spotify }) {
   const [{ discover_weekly }, dispatch] = useStateValue();
-
+  // console.log('body');
   const playPlaylist = (id) => {
     spotify
       .play({
-        context_uri: `spotify:playlist:37i9dQZEVXcJZyENOWUFo7`,
+        context_uri: `spotify:playlist:60YzpAVaNHYrFWmm32cMeA`,
       })
       .then((res) => {
         spotify.getMyCurrentPlayingTrack().then((r) => {
